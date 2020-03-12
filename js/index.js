@@ -57,6 +57,9 @@ navBar[5].textContent = siteContent['nav']['nav-item-6'];
 const h1 = document.querySelector('h1');
 h1.textContent = siteContent["cta"]["h1"];
 
+ const buttonTop = document.querySelector('button');
+ buttonTop.textContent = siteContent["cta"]["button"];
+
 const img = document.querySelector('#cta-img');
 img.src = siteContent["cta"]["img-src"];
 
